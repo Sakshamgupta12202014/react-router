@@ -5,7 +5,9 @@ function User() {
 
     const {userId} = useParams()
   return (
+    <>
     <div>User : {userId}</div>
+    </>
   )
 }
 
